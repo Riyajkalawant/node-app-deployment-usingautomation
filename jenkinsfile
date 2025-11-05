@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        SERVER_IP      = '172.31.13.113'
+        SERVER_IP      = '15.207.247.249'
         SSH_CREDENTIAL = 'nodeappcicd'
         REPO_URL       = 'https://github.com/Riyajkalawant/node-app-deployment-usingautomation.git'
         BRANCH         = 'main'
