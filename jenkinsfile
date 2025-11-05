@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         SERVER_IP      = '15.207.247.249'
-        SSH_CREDENTIAL = 'nodeappcicd'
+        SSH_CREDENTIAL = 'nodeapp'
         REPO_URL       = 'https://github.com/Riyajkalawant/node-app-deployment-usingautomation.git'
         BRANCH         = 'main'
         REMOTE_USER    = 'ubuntu'
