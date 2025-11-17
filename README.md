@@ -176,25 +176,30 @@ npm install
 pm2 start app.js
 
 
- CI/CD Flow Diagram
-pgsql
-Copy code
-Local Machine → GitHub (Webhook) → Jenkins → Ubuntu Server → Email Notification
- Key Learnings
- Integrated GitHub Webhook with Jenkins
- Automated build and deployment pipeline
- Configured Email notifications for build updates
- Learned complete CI/CD workflow
- Managed Node.js app with PM2 on Ubuntu
+#  CI/CD Flow Diagram  
+Local Machine → GitHub (Webhook) → Jenkins → Ubuntu Server → Email Notification  
 
- Conclusion
-This project demonstrates a fully automated CI/CD pipeline for a Node.js application using Jenkins, GitHub, Ubuntu, and PM2.
-It includes webhook triggers and email alerts, showcasing real-world DevOps automation for continuous integration and deployment.
+---
 
- Author
-Riyaj Kalawant
+#  Key Learnings  
+- Integrated GitHub Webhook with Jenkins  
+- Automated build and deployment pipeline  
+- Configured Email notifications for build updates  
+- Learned complete CI/CD workflow  
+- Managed Node.js app with PM2 on Ubuntu  
+
+---
+
+#  Conclusion  
+This project demonstrates a fully automated CI/CD pipeline for a Node.js application using Jenkins, GitHub, Ubuntu, and PM2.  
+It includes webhook triggers and email alerts, showcasing real-world DevOps automation for continuous integration and deployment.  
+
+---
+
+#  Author  
+**Riyaj Kalawant**  
 DevOps & Cloud Learner @ Fortune Cloud, Pune
- riyajkalawant@example.com
- https://github.com/riyajkalawant
+ riyajkalawant@example.com  
+ GitHub: https://github.com/riyajkalawant
 
 
