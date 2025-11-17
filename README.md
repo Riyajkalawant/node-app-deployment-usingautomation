@@ -51,21 +51,21 @@ Develop the Node.js application locally:
 ```bash
 npm install
 npm start
+```
 
-
-2.  Push Code to GitHub
+### 2.  Push Code to GitHub
 Push your code to a remote repository:
 
-bash
+```bash
 Copy code
 git init
 git add .
 git commit -m "Initial commit"
 git remote add origin https://github.com/riyajkalawant/nodejs-cicd-pipeline.git
 git push -u origin main
+```
 
-
-3.  Jenkins Automation with Webhook
+### 3.  Jenkins Automation with Webhook
 GitHub Webhook is configured to trigger Jenkins automatically whenever new code is pushed.
 
 Jenkins performs the following steps:
@@ -81,7 +81,7 @@ Deploy automatically to the Ubuntu server
 
 
  Jenkins Pipeline (Jenkinsfile)
-groovy
+```groovy
 Copy code
 pipeline {
     agent any
@@ -144,9 +144,10 @@ pipeline {
             )
         }
     }
-}
-github%20emailnotification.png)
-4.  Email Notifications
+ }   
+  ```  
+
+### 4.  Email Notifications
 Jenkins is configured with the Email Extension Plugin.
 
 On every build (Success or Failure), an automatic email is sent to the configured address.
@@ -154,34 +155,37 @@ On every build (Success or Failure), an automatic email is sent to the configure
 
 
 
-5.  Ubuntu Server Setup
-1️ Install Node.js & npm
+### 5.  Ubuntu Server Setup
+#### 1️ Install Node.js & npm
 
-bash
+```bash
 Copy code
 sudo apt update
 sudo apt install nodejs npm -y
-2️ Install PM2
+```
 
-bash
+#### 2️ Install PM2
+
+```bash
 Copy code
 sudo npm install -g pm2
-3️ Clone and Run App
+```
+### 3️ Clone and Run App
 
-bash
+```bash
 Copy code
 git clone https://github.com/riyajkalawant/nodejs-cicd-pipeline.git
 cd nodejs-cicd-pipeline
 npm install
 pm2 start app.js
+```
 
-
-#  CI/CD Flow Diagram  
+##  CI/CD Flow Diagram  
 Local Machine → GitHub (Webhook) → Jenkins → Ubuntu Server → Email Notification  
 
 ---
 
-#  Key Learnings  
+##  Key Learnings  
 - Integrated GitHub Webhook with Jenkins  
 - Automated build and deployment pipeline  
 - Configured Email notifications for build updates  
@@ -190,13 +194,13 @@ Local Machine → GitHub (Webhook) → Jenkins → Ubuntu Server → Email Notif
 
 ---
 
-#  Conclusion  
+##  Conclusion  
 This project demonstrates a fully automated CI/CD pipeline for a Node.js application using Jenkins, GitHub, Ubuntu, and PM2.  
 It includes webhook triggers and email alerts, showcasing real-world DevOps automation for continuous integration and deployment.  
 
 ---
 
-#  Author  
+##  Author  
 **Riyaj Kalawant**  
 DevOps & Cloud Learner @ Fortune Cloud, Pune
  riyajkalawant@example.com  
