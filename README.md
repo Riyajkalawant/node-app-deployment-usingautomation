@@ -41,7 +41,10 @@ The goal of this project is to demonstrate complete DevOps automation — from c
 ##  4. GitHub Email Notification  
 ![GitHub Email Notification](./img/github%20emailnotification.png)
 
+---
+
 ##  CI/CD Workflow
+
 
 ### 1.  Local Development
 Develop the Node.js application locally:
