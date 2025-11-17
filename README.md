@@ -202,8 +202,8 @@ It includes webhook triggers and email alerts, showcasing real-world DevOps auto
 
 ##  Author  
 **Riyaj Kalawant**  
-DevOps & Cloud Learner @ Fortune Cloud, Pune
- riyajkalawant@example.com  
+DevOps & Cloud Learner @ Fortune Cloud,Pune.  
  GitHub: https://github.com/riyajkalawant
+  Email: riyajkalawant@email.com 
 
 
